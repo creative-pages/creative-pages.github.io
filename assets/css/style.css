@@ -3,9 +3,9 @@
 ========================================== */
 @charset "utf-8";
 /* CSS Document
-	Website: Web Design 360deg
-	Website URL: http://www.webdesgin360deg.com
-	Development By: Web Design 360deg
+	Website: Creative Pages
+	Website URL: http://www.creative-pages.github.io
+	Development By: creative-pages
 	Author: Md Arif Hossain
 	Author URL: www.arifbd.com
 	Author Email: arifh3261@gmail.com
@@ -183,6 +183,9 @@ header {
 }
 #header_main .navbar {
 	padding: 8px 0px;
+}
+#header_main .navbar .navbar-brand h1 {
+	color: #ffff;
 }
 #header_main .navbar-light .navbar-toggler {
 	background-color: #ffff;
