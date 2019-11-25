@@ -63,7 +63,7 @@ $(document).ready(function($){
 
     // ---- Active clients Carousel
     $(".clients_slider").owlCarousel({
-        loop:true,
+        loop:false,
         margin:15,
         autoplay:false,
         autoplayTimeout:4000,
@@ -89,7 +89,7 @@ $(document).ready(function($){
 
     // ---- Active team Carousel
     $(".team_slider").owlCarousel({
-        loop:true,
+        loop:false,
         margin:15,
         autoplay:false,
         autoplayTimeout:4000,
