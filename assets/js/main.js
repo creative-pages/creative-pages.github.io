@@ -35,7 +35,7 @@ $(document).ready(function($){
         loop:true,
         margin:0,
         autoplay:true,
-        autoplayTimeout:4000,
+        autoplayTimeout:6000,
         autoplaySpeed:1500,
         autoplayHoverPause:true,
         smartSpeed: 1500,
@@ -60,9 +60,6 @@ $(document).ready(function($){
             }
         }
 	});
-
-    // ---- Active Magnific Popup
-    $('.popup-link').magnificPopup({type:'image'});
 
     // ---- Active clients Carousel
     $(".clients_slider").owlCarousel({

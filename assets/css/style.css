@@ -221,7 +221,7 @@ header {
 }
 #banner .slider_item {
 	background-repeat: no-repeat;
-	background-position: center center;
+	/* background-position: center center; */
 	background-size: cover;
 	height: 450px;
 }
@@ -438,20 +438,8 @@ svg.portfolio {
 #work {
 	padding: 0px 0px 20px;
 }
-.mfp-bg {
-	z-index: 9999999;
-}
-.mfp-wrap {
-	z-index: 99999999;
-}
-.mfp-content {
+.fancybox-container {
 	z-index: 999999999;
-}
-img.mfp-img {
-    /* padding: 0px; */
-}
-.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-    font-size: 50px;
 }
 #work .work_parts {
 	position: relative;
@@ -460,20 +448,20 @@ img.mfp-img {
 	width: 100%;
 	height: 260px;
 }
-#work .work_parts .popup-link {
+#work .work_parts .popup_link {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 0%;
 	height: 100%;
-	background-color: rgb(0, 123, 255, 0.8);
+	background-color: rgb(0, 0, 0, 0.8);
 	font-size: 20px;
 	color: #ffff;
 	text-align: center;
 	line-height: 260px;
 	opacity: 0;
 }
-#work .work_parts:hover .popup-link {
+#work .work_parts:hover .popup_link {
 	width: 100%;
 	opacity: 1;
 	transition: 0.5s;
@@ -484,7 +472,6 @@ img.mfp-img {
 	text-align: center;
 	font-size: 22px;
 	color: #ffff;
-	border-top: 2px solid #ffff;
 }
 #work .mb_30 {
 	margin-bottom: 30px;
