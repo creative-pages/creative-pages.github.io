@@ -318,7 +318,7 @@ header {
 	padding: 50px 25px;
 	text-align: center;
 	color: #ffff;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	position: relative;
 }
 #service .ser_parts:before {
@@ -341,21 +341,27 @@ header {
 }
 #service .ser_parts.s1 {
 	background-color: #007bff;
+	transform: rotate(-18deg);
 }
 #service .ser_parts.s2 {
 	background-color: #673ab7;
+	transform: rotate(-10deg);
 }
 #service .ser_parts.s3 {
-	background-color: #e91e63;#4caf50
+	background-color: #e91e63;
+	transform: rotate(18deg);
 }
 #service .ser_parts.s4 {
 	background-color: #4caf50;
+	transform: rotate(18deg);
 }
 #service .ser_parts.s5 {
-	background-color: #ff33cc;#4caf50
+	background-color: #ff33cc;
+	transform: rotate(10deg);
 }
 #service .ser_parts.s6 {
 	background-color: #ff5722;
+	transform: rotate(-18deg);
 }
 #service .ser_parts h3 {
 	font-size: 22px;

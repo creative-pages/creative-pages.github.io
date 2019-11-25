@@ -17,7 +17,32 @@
 		margin-top: -35px;
 	}
 }
-
+@media (max-width: 767.98px) {
+	#service .ser_parts.s1 {
+		background-color: #007bff;
+		transform: rotate(-18deg);
+	}
+	#service .ser_parts.s2 {
+		background-color: #673ab7;
+		transform: rotate(-8deg);
+	}
+	#service .ser_parts.s3 {
+		background-color: #e91e63;
+		transform: rotate(15deg);
+	}
+	#service .ser_parts.s4 {
+		background-color: #4caf50;
+		transform: rotate(-18deg);
+	}
+	#service .ser_parts.s5 {
+		background-color: #ff33cc;
+		transform: rotate(10deg);
+	}
+	#service .ser_parts.s6 {
+		background-color: #ff5722;
+		transform: rotate(-18deg);
+	}
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
 	#work .common_header {
 	    margin-top: -50px;
