@@ -790,6 +790,9 @@ svg.clients_svg {
 #why p {
 	font-size: 17px;
 }
+#why .progress {
+	background-color: #ffff;
+}
 #why .progress,
 #why .progress-bar {
 	height: 20px;
