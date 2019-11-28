@@ -699,11 +699,12 @@ svg.clients_svg {
 	height: 150px;
 }
 #address .address_parts h3 {
-	padding: 5px 0px;
+	padding: 5px 10px;
 	font-family: PTSans-Bold;
 	font-style: italic;
-	border-bottom: 5px inset #007bff;
-	display: inline-block;
+	background-color: #007bff;
+	color: #ffff;
+	margin-bottom: 15px;
 }
 #address .address_parts p,
 #address .address_parts a {
