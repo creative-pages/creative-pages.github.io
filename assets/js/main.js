@@ -113,4 +113,22 @@ $(document).ready(function($){
         }
     });
 
+    // ---- Active about Carousel
+    $(".about_slider").owlCarousel({
+        items:1,
+        loop:true,
+        margin:0,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplaySpeed:1500,
+        autoplayHoverPause:true,
+        smartSpeed: 1500,
+        nav:false,
+        navText:["<i class='fas fa-angle-left' aria-hidden='true'></i>", "<i class='fas fa-angle-right' aria-hidden='true'></i>"],
+        dots:true,
+        center:false,
+        rtl:false,
+        responsiveClass:false,
+    });
+
 }(jQuery));

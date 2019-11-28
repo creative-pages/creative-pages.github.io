@@ -42,6 +42,9 @@
 		background-color: #ff5722;
 		transform: rotate(-18deg);
 	}
+	#about .about_slider {
+		margin-bottom: 25px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
 	#work .common_header {
@@ -49,6 +52,13 @@
 	}
 	.footer_top .copy_right {
 		margin-top:205px;
+	}
+	#about .md_none {
+		display: none;
+	}
+	#about .md_block {
+		display: block;
+		margin-top: 10px;
 	}
 }
 
