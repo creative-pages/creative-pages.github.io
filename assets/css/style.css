@@ -178,6 +178,9 @@ header {
 	display: block;
 }
 /* header main */
+.dropdown:hover > .dropdown-menu {
+	display: block;
+}
 #header_main {
 	background-color: #007bff;
 }
@@ -800,6 +803,13 @@ svg.clients_svg {
 	font-size: 17px;
 }
 /*-------why part end---------*/
+
+/*-------static page part start---------*/
+
+/*-------static page part end---------*/
+
+
+
 
 
 
