@@ -1,0 +1,87 @@
+/*******************************
+	All Responsive Code
+*******************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+@media (max-width: 991.98px) {
+	header .menu .navbar-nav {
+		margin-top: 12px;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+	.lg_mb_40 {
+		margin-bottom: 40px;
+	}
+	#classes .class .class_item {
+		width: 33.3333%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.lg_none {
+		display: none;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#classes .class .class_item {
+		width: 50%;
+	}
+}
+@media (max-width: 767.98px) {
+	header .banner_slider .banner_item .banner_overlay {
+		padding: 150px 15px 120px;
+	}
+	#about {
+		padding: 50px 0px;
+	}
+	#about .video {
+		margin-bottom: 35px;
+	}
+	#our_team {
+		padding: 50px 0px;
+	}
+	#membership {
+		padding: 50px 0px;
+	}
+	.member_part {
+		margin-bottom: 30px;
+	}
+	#classes {
+		padding: 50px 0px;
+	}
+}
+@media (max-width: 620px) {
+	.slick-prev {
+	    left: 16px;
+	    background-color: white;
+	}
+	.slick-next {
+	    right: 16px;
+	    background-color: white;
+	}
+}
+@media (max-width: 575.98px) {
+	header .navbar .navbar-brand {
+		margin-left: 15px;
+	}
+	header .menu .nav-item .nav-link {
+		text-align: center;
+		border: none;
+		padding: 8px 10px;
+	}
+	header .menu .nav-item .nav-link:hover,
+	header .menu .nav-item.active .nav-link {
+	  border: none;
+	  background-color: #e23e38;
+	}
+	.sm_mb_40 {
+		margin-bottom: 40px;
+	}
+	#classes .class .class_item {
+		width: 100%;
+	}
+}
+
+@media (max-width: 380px) {
+	
+}
