@@ -9,10 +9,13 @@
 		margin-top: 12px;
 		background-color: rgba(0, 0, 0, 0.8);
 	}
+	header .menu .nav-item .nav-link {
+		padding: 10px 15px;
+	}
 	.lg_mb_40 {
 		margin-bottom: 40px;
 	}
-	#classes .class .class_item {
+	#classes .class_main .class_item {
 		width: 33.3333%;
 	}
 }
@@ -23,7 +26,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-	#classes .class .class_item {
+	#classes .class_main .class_item {
 		width: 50%;
 	}
 }
@@ -32,13 +35,19 @@
 		padding: 150px 15px 120px;
 	}
 	#about {
-		padding: 50px 0px;
+		padding-top: 50px;
 	}
 	#about .video {
 		margin-bottom: 35px;
 	}
+	#gallery {
+	    padding-top: 50px;
+	}
 	#our_team {
-		padding: 50px 0px;
+		padding-top: 50px;
+	}
+	#testimonial {
+	    padding-top: 50px;
 	}
 	#membership {
 		padding: 50px 0px;
@@ -53,17 +62,14 @@
 @media (max-width: 620px) {
 	.slick-prev {
 	    left: 16px;
-	    background-color: white;
+	    background-color: #ffffff;
 	}
 	.slick-next {
 	    right: 16px;
-	    background-color: white;
+	    background-color: #ffffff;
 	}
 }
 @media (max-width: 575.98px) {
-	header .navbar .navbar-brand {
-		margin-left: 15px;
-	}
 	header .menu .nav-item .nav-link {
 		text-align: center;
 		border: none;
@@ -77,7 +83,7 @@
 	.sm_mb_40 {
 		margin-bottom: 40px;
 	}
-	#classes .class .class_item {
+	#classes .class_main .class_item {
 		width: 100%;
 	}
 }
