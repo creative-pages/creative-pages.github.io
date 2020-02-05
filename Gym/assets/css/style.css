@@ -3,8 +3,8 @@
 ========================================== */
 /* CSS Document
 	Website: Gym
-	Website URL: http://www.gym.com
-	Development By: Md Arif Hossain
+	Website URL: https://creative-pages.github.io/Gym/index.html
+	Development By: Creative Pages Ltd
 	Author: Md Arif Hossain
 	Author URL: https://creative-pages.github.io
 	Author Email: arifh3261@gmail.com
@@ -13,6 +13,11 @@
 body {
   font-family: OpenSans;
   overflow-x: hidden;
+}
+
+::-moz-selection {
+  background: #e23e38;
+  color: #fff;
 }
 
 ::selection {
@@ -170,6 +175,8 @@ header .menu {
     top: 30px;
     left: 0;
     z-index: 999;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
     transition: all linear 0.3s;
 }
 header .top_fix {
@@ -197,6 +204,8 @@ header .menu .nav-item .nav-link {
   color: #f1f1f1;
   font-size: 14px;
   border-bottom: 3px solid transparent;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
   text-transform: uppercase;
 }
@@ -225,6 +234,8 @@ header .banner_slider .banner_item .banner_overlay a {
   line-height: 30px;
   border: 1px solid #ffffff;
   margin: 0px 15px;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
 }
 header .banner_slider .banner_item .banner_overlay a:hover {
@@ -235,7 +246,9 @@ header .banner_slider .owl-nav .owl-prev,
 header .banner_slider .owl-nav .owl-next {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -244,6 +257,8 @@ header .banner_slider .owl-nav .owl-next {
   line-height: 55px;
   color: #bfc7cd!important;
   font-size: 25px!important;
+  -webkit-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
   opacity: 0;
 }
@@ -261,7 +276,9 @@ header .banner_slider .owl-dots {
   position: absolute;
   left: 50%;
   bottom: 20px;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 header .banner_slider .owl-dot {
   width: 15px;
@@ -269,6 +286,8 @@ header .banner_slider .owl-dot {
   border-radius: 50%;
   margin: 0px 10px;
   border: 2px solid #ffff!important;
+  -webkit-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
   float: left;
 }
@@ -291,12 +310,15 @@ header .banner_slider .owl-dot.active {
 #about .video .video_overlay a {
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 #about .video .video_overlay:hover a i {
   color: #e23e38!important;
 }
 /*-------about part end---------*/
+
 /*-------gallery part start---------*/
 #gallery {
     padding-top: 80px;
@@ -322,12 +344,16 @@ header .banner_slider .owl-dot.active {
   border: 5px solid #bcb9b5;
   background-color: rgba(117, 32, 29, 0.5);
   opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 #gallery .main_gallery .gall_part_hover .gall_part_overlay a {
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 30px;
   color: #ffffff;
 }
@@ -357,12 +383,16 @@ header .banner_slider .owl-dot.active {
 }
 #our_team .team_parts:hover .img .img_hover {
   opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 #our_team .img_hover .nav {
   top: 50%;
   right: 25px;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 #our_team .img_hover .nav .nav-link {
   width: 30px;
@@ -372,6 +402,8 @@ header .banner_slider .owl-dot.active {
   text-align: center;
   margin: 5px 0px;
   color: #ffffff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 #our_team .img_hover .nav .nav-link i {
@@ -390,6 +422,8 @@ header .banner_slider .owl-dot.active {
 }
 #our_team .team_parts:hover {
   margin-top: -40px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 #our_team .team_parts:hover .team_body {
@@ -471,7 +505,6 @@ header .banner_slider .owl-dot.active {
 #membership .member_part .member_price {
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 #membership .member_part .member_price .member_overlay {
@@ -482,6 +515,8 @@ header .banner_slider .owl-dot.active {
 #membership .member_part:hover a {
   background-color: #e23e38;
   color: #ffffff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   text-decoration: none;
 }
@@ -492,7 +527,6 @@ header .banner_slider .owl-dot.active {
     background-image: url(../images/work_delivery.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    -webkit-background-size: cover;
     background-size: cover;
 }
 #work_delivery .delivery_overlay {
@@ -510,7 +544,7 @@ header .banner_slider .owl-dot.active {
   font-size: 14px;
   color: #222222;
   font-family: Oswald-Regular;
-gallery_part  cursor: pointer;
+  cursor: pointer;
   background-color: #f1f1f1;
 }
 #classes ul li:hover,
@@ -520,12 +554,15 @@ gallery_part  cursor: pointer;
 }
 #classes .class_main .class_item {
   width: 20%;
-  box-sizing: border-box!important;
+  -webkit-box-sizing: border-box!important;
+          box-sizing: border-box!important;
   padding: 5px;
 }
 #classes .class_main .class_item .class_part {
   padding: 45px 0px;
   background-color: #f1f1f1;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
 }
 #classes .class_main .class_item .class_part:hover {
@@ -633,6 +670,8 @@ footer .ft_contact .social a {
   text-align: center;
   border: 1px solid #ffffff;
   margin-right: 10px;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
 }
 footer .ft_contact .social a:last-child {
@@ -664,6 +703,6 @@ footer .ft_contact .social a:hover {
   right: 20px;
   z-index: 999;
   cursor: pointer;
-  display: none; }
-
+  display: none;
+}
 /*------- to-top end -------*/
